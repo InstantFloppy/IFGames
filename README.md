@@ -1,2 +1,2 @@
 # games.instantfloppy.net
-Flash games someone made and we ruthlessly stole and embedded have fun
+It's a website full of flash game embeds from the people who brought you [Instant Floppy](https://github.com/InstantFloppy/InstantFloppy)
