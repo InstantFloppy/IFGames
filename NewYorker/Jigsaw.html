@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://games.instantfloppy.net/" />
+    <link rel='stylesheet' type='text/css' href='https://www.instantfloppy.net/stylesheet.css'/> 
+    <title>IFG: The NYorker Jigsaw</title>
+  </head>
+  <body>
+    <h1><a href="https://games.instantfloppy.net">Instant Floppy Games</a> - The New Yorker Jigsaw Puzzle</h1>
+    <hr size="1" color=#00FF00 width="25%" align="left">
+    <script>
+      var el = document.getElementById("jigsaw-puzzle");
+      if ((navigator.userAgent.toLowerCase()).search('ipad') > -1 || window.innerWidth < 401) {
+        el.innerHTML = '<iframe src="https://projects.newyorker.com/games/jigsaw/index.html" name="jigsaw-html5" scrolling="no"       frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="100%" border="0px" style="border:0px;"></iframe>';
+      } else {
+          el.innerHTML = '<embed type="application/x-shockwave-flash" src="https://www.newyorker.com/flashxml/jigsaw/jigsaw-puzzle_2.swf" width="100%" height="534px" pluginspage="https://www.macromedia.com/go/getflashplayer" play="true" wmode="opaque" flashvars="xmlFile=https://www.newyorker.com/flashxml/jigsaw/data/jigsaw_puzzle.xml">';
+      }
+    </script>
+    <hr size="1" color=#00FF00 width="25%" align="left">
+    <h7>Some games may require you to load external sources. <a href="https://www.instantfloppy.net/Articles/InterWeb/LoadExternal">More information</a></h7>
+  </body>
+</html>
